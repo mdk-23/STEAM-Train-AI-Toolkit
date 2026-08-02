@@ -48,7 +48,3 @@ Everything else (workflows, guardrails, question banks) is evergreen.
 - Each SKILL.md uses YAML frontmatter (`name`, `description`) followed by a markdown instruction body. The frontmatter is what Claude uses to decide when to trigger the skill; the body is the actual instructions and is what you paste into other platforms.
 - Keep the no-fabrication guardrails intact in any edit. They are the toolkit's ethical core.
 - Questions about the original analysis can be directed to the UConn Digital Frontiers Initiative MSBAPM capstone program.
-
-## License
-
-Copyright STEAM Train, Inc. Released for use by STEAM Train staff, students, and program graduates.
