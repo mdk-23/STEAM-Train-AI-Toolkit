@@ -8,7 +8,7 @@ Developed by UConn MSBAPM Capstone Team 3 in partnership with STEAM Train, Inc. 
 
 | Skill | Full version | Lite version | What it does |
 |---|---|---|---|
-| Job Search | `job-search/SKILL.md` | `lite/job-search-lite.md` | Recommends job titles, evaluates pasted postings, applies the "60% rule" against degree inflation, builds a weekly search routine |
+| Job Search | `job-search/SKILL.md` | `lite/job-search-lite.md` | Actively searches for and suggests current openings, evaluates postings, applies the "60% rule" against degree inflation, keeps the search organized |
 | Resume Builder | `resume-builder/SKILL.md` | `lite/resume-builder-lite.md` | Interviews the user about their real history, translates non-IT experience into IT-framed resume bullets, tailors to postings, with strict no-fabrication guardrails |
 | Interview Prep | `interview-prep/SKILL.md` | `lite/interview-prep-lite.md` | Runs mock interviews one question at a time, coaches the STAR method, reviews Tier 1 technical questions, debriefs real interviews |
 
@@ -29,6 +29,8 @@ Every file is fully self-contained. Use the **full version** whenever the platfo
 | Microsoft Copilot, free or not signed in | **Lite** | Free Copilot limits message length; full versions may be cut off |
 
 If any platform truncates a paste or the assistant behaves as if it only saw part of the instructions, switch to the lite version.
+
+**A note on the Job Search skill:** it works best where the AI can search the web, which current free tiers of ChatGPT, Gemini, and Copilot all support (make sure search or browsing is enabled in the chat). On Claude, students can additionally connect a job board connector such as Indeed (Settings, then Connectors), and the skill will query it directly for live postings. If a session has no search access, the skill detects this and falls back to coaching the student through searching manually. The skill instructs the AI never to present job listings from memory, but students should still verify any posting at the source before applying.
 
 ## Setup instructions
 
