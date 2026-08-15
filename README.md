@@ -81,20 +81,20 @@ Everything else (workflows, guardrails, question banks) is evergreen.
 
 ## Character budget: STEAM TRAIN personnel read this before editing
 
-ChatGPT Custom GPT instructions are capped at 8,000 characters. Two of the three skills are close to that ceiling, so edits must be roughly **net-neutral in length**: if you add a sentence, cut one of similar size.
+ChatGPT Custom GPT instructions are capped at 8,000 characters. All three skills are close to that ceiling, so edits must be roughly **net-neutral in length**: if you add a sentence, cut one of similar size.
 
 | File | Body characters | Remaining before 8,000 |
 |---|---|---|
-| `job-search/SKILL.md` | ~7,300 | ~700 |
-| `resume-builder/SKILL.md` | ~7,850 | ~150 |
-| `interview-prep/SKILL.md` | ~7,900 | ~100 |
+| `job-search/Job-search-SKILL.md` | 7,988 | 12 |
+| `resume_builder/Resume-builder-SKILL.md` | 7,847 | 153 |
+| `interview-prep/Interview-prep-SKILL.md` | 7,909 | 91 |
 
-Resume Builder and Interview Prep have room for about one or two sentences each, not more. Adding a paragraph to either will push it over the limit, and ChatGPT will refuse to save the Custom GPT.
+Job Search has effectively no room left: 12 characters. Any addition to it must be paid for by a cut of at least the same size in the same file. Resume Builder and Interview Prep have room for roughly one sentence each, not more. Adding a paragraph to any of the three will push it over the limit, and ChatGPT will refuse to save the Custom GPT.
 
 To recount after an edit, run this from the repository root. It counts the body only, excluding the metadata block:
 
 ```
-for f in */SKILL.md; do
+for f in */*SKILL.md; do
   echo "$f: $(awk 'BEGIN{n=0} /^---$/{n++; next} n>=2{print}' "$f" | wc -c) characters"
 done
 ```

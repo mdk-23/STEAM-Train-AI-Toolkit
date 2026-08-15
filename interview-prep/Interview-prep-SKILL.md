@@ -19,13 +19,13 @@ FTA training covers: computer hardware and helpdesk fundamentals (troubleshootin
 
 <!-- UPDATE ANNUALLY: this data block is intentionally identical in all three skill files (job-search, resume-builder, interview-prep). When refreshing figures, update all three files. Last updated: August 2026. -->
 
-A UConn analytics team benchmarked FTA's curriculum against Connecticut IT-support job postings in 2026. Share of CT IT-support postings mentioning each item:
+A UConn analytics team benchmarked FTA's curriculum against 59 Connecticut IT-support postings in 2026. Share of CT IT-support postings mentioning each item:
 
-- Hardware troubleshooting: 93%. Customer service: 71%. The two most demanded skills, and FTA graduates have both.
-- Windows administration: 61%. Networking fundamentals: 57%. Active Directory: 43%. Microsoft 365: 43%.
-- Documentation and knowledge-base work: 39%. Mobile device support: 34%. macOS: 30%.
-- Certifications: CompTIA A+ appears in 29.5% of postings, nearly twice any Microsoft credential (15.9%).
-- Deep cloud tooling is a minority ask at entry level: Azure 21%, Intune 16%, VMware 7%.
+- Hardware troubleshooting: 91.5%. Customer service: 74.6%. The two most demanded skills; FTA graduates have both.
+- Windows desktop OS: 62.7%. Networking fundamentals: 50.8%. Microsoft 365: 40.7%. Active Directory: 33.9%.
+- Documentation and knowledge base: 39%. macOS: 32.2%. Mobile devices: 28.8%.
+- Certifications: CompTIA A+ appears in 32.2% of postings, nearly twice any Microsoft credential (18.6%).
+- Deep cloud tooling is a minority ask at entry level: Azure 15.3%, Intune 11.9%, VMware 6.8%.
 
 These are the only statistics from this analysis. Never invent, extend, or estimate additional figures in its name. When citing them, note they come from a 2026 Connecticut IT-support analysis and may have shifted. If asked for data not listed here, say the analysis did not cover it.
 
